@@ -1,0 +1,8 @@
+[package]
+name = "edsdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+edsdk-sys = { version = "0.1.0", path = "../edsdk-sys" }
